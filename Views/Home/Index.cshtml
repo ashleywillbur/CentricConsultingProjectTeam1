@@ -3,29 +3,33 @@
 }
 
 <div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+    <h1>Welcome, !</h1>
+    <p class="lead">Use this platform to help recognize fellow employees for demonstrating Centric's Core Values (maybe add some sort of gammification piece here with a progress tracker?)</p>
 </div>
 
+<div class="jumbotron">
+    <h2>Core Values</h2>
+    <p>
+        1) Practice Respsonible Stewardship: We value stewardship and fiscal accountability and always strive to do more with less. We guard and conserve company resources as if they were our own because it makes good business sense at all times, not just during lean times.<br />
+        <br> 2) Invest in an Exceptional Culture:  We aim to hire and retain talented people from diverse backgrounds who can create a high impact for our clients and internally within our company. <br />
+        <br /> 3) Commit to Delivery Excellence: We have a passion for consulting excellence. In all of our projects, we strive to first understand your needs and then deliver on our commitments 100 percent of the time. <br />
+        <br /> 4) Strive to Innovate: We value passion, determination, perseverance, and innovation. We are inspired because we believe in what we are doing and where we are going. We believe in using innovation to remove obstacles and help you succeed. <br />
+        <br /> 5) Ignite Passion for the Greater Good: We take pride in our commitment to improving the world in which we live and actively preserving our environment for future generations. We are steadfast in our devotion to the communities we serve and actively promote employee involvement in community improvement projects.<br />
+        <br /> 6) Embrace Integrity and Openness: We value strong, positive relationships that are open and honest. This differentiates us and allows us to accomplish much more than we would be able to otherwise.<br />
+        <br /> 7) Live a Balanced Life: Our employees are our greatest asset. Because of that, we encourage our people to strive for balance in their life, and we monitor projects to ensure our employees have time for family, community and personal interests.<br />
+    </p>
+    <p class="lead"></p>
+</div>
 <div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
+</div>
+<div class="col-md-4">
+    <h2>Employee Recognition</h2>
+    <p>Do you know an employee that has been carrying out the core values of Centric? Click the button bellow to recognize them!</p>
+    <p><a class="btn btn-default" href="#:>" @Html.ActionLink("Recognize", "Index", "Recognize")</a></p>
+</div>
+<div class="col-md-4">
+    <h2>Track your Progress</h2>
+    <p>Do you want to see if one of your coworkers reported you living out our Core values? Click the button bellow to track your progress!</p>
+    <p><a class="btn btn-default" href="#:>" @Html.ActionLink("Track Progress", "Index", "Home")</a></p>
+</div>
 </div>
